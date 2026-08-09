@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moedinhas/features/splash/splash_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -6,9 +7,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: Center(child: Text("Ola")),
-      ),
+      home: SplashPage(),
     );
   }
 }
