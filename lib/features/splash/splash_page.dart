@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moedinhas/common/constants/app_colors.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -10,10 +11,7 @@ class SplashPage extends StatelessWidget {
         alignment: Alignment.center,
         decoration: BoxDecoration(
           gradient: LinearGradient(
-              colors: [
-                Color(0xff63b5af),
-                Color(0xff438883)
-              ],
+              colors: AppColors.greenGradient,
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter
           )
