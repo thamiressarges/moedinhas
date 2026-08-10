@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moedinhas/common/constants/app_colors.dart';
+import 'package:moedinhas/common/constants/app_text_styles.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -18,11 +19,7 @@ class SplashPage extends StatelessWidget {
         ),
         child: Text(
             "moedinhas",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 50,
-            fontWeight: FontWeight.bold
-          ),
+          style: AppTextStyles.bigText.copyWith(color: AppColors.white)
         ),
       ),
     );
